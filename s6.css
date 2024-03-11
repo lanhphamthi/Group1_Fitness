@@ -1,0 +1,45 @@
+header{
+    background-color: rgb(228, 116, 180);
+}
+
+header img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+header span{
+    font-size: 40px;
+    font-weight: bold;
+    color:white;
+    position: relative;
+    left: 40%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: antiquewhite;
+    font-size: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: red;
+}
+
+.active
+{
+    color: red;
+    background-color: rgb(152, 175, 195);
+}
+
+footer{
+    background-color: rgb(232, 119, 119);
+    font-weight: bold;
+    text-align: center;
+}
